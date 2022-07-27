@@ -1,11 +1,11 @@
 .container {
-    width: 80%;
+    width: 1236px;
     margin: auto;
     outline: solid 2px yellow;
 }
 .header-flex {
     display: flex;
-    height: 380px;
+    height: 420px;
     justify-content: space-around;
 
 }
@@ -13,31 +13,35 @@
 .banner-flex{
   display: flex;
   justify-content: space-evenly;
+  padding: 30px;
 
 }
 .image img{
      
-     height: 100%;
+     height: auto;
      width: 100%;
 }
 .banner-flex .image{
-    height: 100%;
-    width: 100%;
-    outline: solid 2px red; 
+    height: 570px;
+    width: 1121px;
+    outline: solid 2px red;
+    padding: 10px; 
 }
 .ourgoals-flex{
     display:flex;
     justify-content: space-evenly;
+    padding: 30px;
 }
-.ourgoals-flex .ourmission{
-    height: 300px;
-    width: 33.33%;
-    outline: solid 2px black;
+.mani img{
+    height: autopx;
+    width: 360px;
 }
-.ourmission img{
-width: 100%;
-height: 150px;
+.ourgoals-flex .mani{
+    height: 464px;
+    width: 1121px;
+    padding: 20px;
 }
+
 .faq-flex{
     height: 300px;
     line-height: 50px;
