@@ -3,70 +3,144 @@
     margin: auto;
     outline: solid 2px blue;
 }
-.header-flex {
-    display: flex;
-    height: 420px;
-    justify-content: space-around;
+.haeder{
+    width: 100%;
+    height: 80vh;
+    background: url(../images/hero-bg.jpg);
+    background-size: cover;
+   position: relative;
+    margin-top: -80px;
+    z-index: 9;
 }
-.header-flex img{
+.header-flex {
+    height: 420px;
+}
+
+.header-flex img {
     height: auto;
     width: 100%;
 }
-.banner-flex{
-  display: flex;
-  justify-content: space-evenly;
+
+.header-flex h1 {
+    font-size: 30px;
 }
-.image img{
-     height: 410px;
-     width: 550px;
+
+.header-flex h2 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    line-height: 56px;
+    color: #222;
 }
-.banner-flex .image{
+
+.header-flex p {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.input-1 input{
+    text-align: center;
+    padding-left: 15px;
+    line-height: 2px;
+    border-radius: 50px;
+    box-shadow: none;
+    font-size: 14px;
+    border: 0;
+    padding: 0px 15px 2px 20px;
+    width: 250px;
+    height: 40px;
+    margin: 0 8px;
+}
+
+button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: none;
+    color: #fff;
+    background: #fd680e;
+    align-items: center;
+
+}
+
+.butt {
+    text-align: center;
+}
+
+.banner-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image img {
+    height: 410px;
+    width: 550px;
+}
+
+.banner-flex .image {
     height: 570px;
     width: 1120px;
     outline: solid 2px black;
-    padding: 10px; 
+    padding: 10px;
 }
-.ourgoals-flex{
+
+.ourgoals-flex {
     display: flex;
     justify-content: space-evenly;
     height: 456px;
     width: 1120px;
 }
-.image-1 img{
+
+.image-1 img {
     height: 224px;
     width: 360px;
     padding: 10px;
     margin-left: 100px;
 }
-.image-2 img{
+
+.image-2 img {
     height: 224px;
     width: 360px;
     padding: 10px;
-    
-}
-.image-3 img{
-    height: 224px;
-    width: 360px;
-    padding: 10px;
-    
+
 }
 
-.faq-flex{
+.image-3 img {
+    height: 224px;
+    width: 360px;
+    padding: 10px;
+
+}
+
+.faq-flex {
     height: 300px;
     line-height: 50px;
 }
-.fab-flex .number{
-height: 50px;
+
+.fab-flex .number {
+    height: 50px;
 }
-.contact-flex{
+
+.contact-flex {
     display: flex;
     justify-content: space-between;
 }
-.contact-flex .contact{
+
+.contact-flex .contact {
     height: 300px;
-    width:50%;
+    width: 50%;
     outline: solid 2px blue;
 }
-.legal-flex{
+
+.legal-flex {
     height: 200px;
 }
